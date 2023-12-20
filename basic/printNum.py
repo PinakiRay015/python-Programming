@@ -1,3 +1,4 @@
-# python program to print "hello world" 10 times
-for i in range(10):
-    print("Hello world")
+# python program to print name of the user 5 times
+name = "Rohan"
+for i in range(5):
+    print(name)
