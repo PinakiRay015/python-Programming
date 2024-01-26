@@ -1,8 +1,7 @@
-# Python program to create a method instances
-class Mammals:
-    def birth(self , name):
-        print("{name} give birth to young ones".format(name = name))
+class Dog:
+    def bark(self):
+        print("Bow Bow")
 
 
-Tiger = Mammals()
-Tiger.birth("Dogs")
+labrador = Dog()
+labrador.bark()
